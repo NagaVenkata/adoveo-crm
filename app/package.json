@@ -1,0 +1,36 @@
+{
+  "name": "adoveo-crm",
+  "version": "1.0.0",
+  "description": "adoveoo crm",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js localhost 6870",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "umapathi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "jsforce": "1.11.0",
+    "jsonwebtoken": "latest",
+    "axios": "latest",
+    "lodash": "latest",
+    "moment": "latest",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
